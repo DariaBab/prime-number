@@ -11,14 +11,14 @@ body{
 
 
 input::placeholder{
-    color: #fcfdfd;
+    color: #556f6f;
     font-size: 16px;
 }
 
 .button {
     margin-top: 10px;
     margin-right: 10px;
-   float: inline-end;
+   float: right;
   }
 
 .main-box{

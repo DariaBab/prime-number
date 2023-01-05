@@ -1,5 +1,7 @@
+"use strict";
+console.log("test");
 const num = document.querySelector('.number');
-const btn = document.querySelector('a');
+const btn = document.querySelector('.submit-btn');
 const output = document.querySelector('.output');
 
 
@@ -27,7 +29,7 @@ function primeNumber(num) {
 }
 
 btn.addEventListener('click', e => {
-
+console.log("push");
     output.innerHTML = primeNumber(num.value);
 
 });
